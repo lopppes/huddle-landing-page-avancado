@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+body{
+    background-color: var(--Violet);
+    background-image: url(./images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    height: 100vh;
+
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    padding: 10px 0;
+    margin: 0 10px;
+
+}
+header{
+    width: 100%;
+    left: 0;
+
+}
+header > a > img{
+    width: 190px;
+    margin-bottom: 40px;
+    
+}
+.imagem-esquerda{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.imagem-esquerda > img{
+    max-width: 670px;
+}
+.imagem-direita{
+    margin-top: 45px;
+
+}
+.direita > h1{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 40px;
+
+}
+.direita > p{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 60px;
+    font-weight: 400;
+
+}
+.direita > a{
+    background-color: #ffffff;
+    color: var(--Violet);
+    padding: 10px 40px;
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s ease-in-out;
+
+}
+.direita > a:hover{
+    background-color: var(--Soft-Magenta);
+    color: #ffffff
+
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+footer > a{ 
+    color: #ffffff;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 20px;
+    padding: 14px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    transition: 0.2s ease-in-out;
+    margin-left: 10px;
+
+}
+footer > a:hover{
+    border-color: var(--Soft-Magenta);
+    color: var(--Soft-Magenta);
+    
+}
+
