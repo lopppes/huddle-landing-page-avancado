@@ -2,11 +2,11 @@
 
 body{
     background-color: var(--Violet);
-    background-image: url(./images/bg-desktop.svg);
+    background-image: url(../images/bg-desktop.svg);
     background-repeat: no-repeat;
     background-size: cover;
     color: #ffffff;
-    height: 100vh;
+    min-height: 100vh;
 
 }
 main{
@@ -58,6 +58,7 @@ header > a > img{
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 60px;
     font-weight: 400;
+    
 
 }
 .direita > a{
@@ -67,6 +68,7 @@ header > a > img{
     border-radius: 25px;
     font-family: 'Poppins', sans-serif;
     transition: 0.3s ease-in-out;
+    box-shadow: 1px 1px 60px 0px black;
 
 }
 .direita > a:hover{
@@ -99,4 +101,3 @@ footer > a:hover{
     color: var(--Soft-Magenta);
     
 }
-

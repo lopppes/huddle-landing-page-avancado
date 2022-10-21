@@ -1,11 +1,6 @@
 @media (max-width: 1100px){
-    header > a > img{
-        width: 150px;
-        margin-bottom: 10px;
-
-    }
     .imagem-da-esquerda > img{
-        width: 300px;
+        width: 450px;
 
     }
     .imagem-esquerda{
@@ -13,23 +8,36 @@
         text-align: center;
         
     }
+    .imagem-direita{
+        margin-top: 0px;
+    
+    }
     .direita > h1{
         font-size: 30px;
+    }
+    .direita > p{
+        margin-left: 100px;
+        margin-right: 100px;
     }
 }
 
 @media (max-width: 700px){
     
     body{
-        background-image: url(./images/bg-mobile.svg);
+        background-image: url(../images/bg-mobile.svg);
     }
-    .imagem-esquerda> img{
-        width: 100%;
+    .imagem-da-esquerda > img{
+        width: 300px;
+
     }
 
     .direita > h1{
         font-size: 20px;
 
+    }
+    .direita > p{
+        margin-left: 60px;
+        margin-right: 60px;
     }
     .direita > a{
         padding: 12px 70px;
@@ -39,10 +47,11 @@
         justify-content: center;
         margin-top: 50px;
     }
+
 }
 @media (max-width: 475px){
     header > a > img{
-        width: 100px;
+        width: 200px;
         margin-bottom: 10px;
 
     }
@@ -50,5 +59,13 @@
     .direita > p{
         font-size: 15px;
 
+    }
+    .imagem-da-esquerda > img{
+        width: 250px;
+
+    }
+    .direita > p{
+        margin-left: 5px;
+        margin-right: 5px;
     }
 }
